@@ -6,9 +6,12 @@
    Title
   </title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
  </head>
  <body>
-  <header>
+<header class="header">
     <h1>Jinny Kim</h1>
     <p>Senior Data Engineer | Fullstack Developer | Java & Angular Specialist</p>
    
@@ -24,52 +27,72 @@
        <a href="content/2.html">
         2
        </a> -->
-</header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Your Name</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<div class="container">
-    <div class="main-content">
-        <section id="about">
+    <section id="about" class="section about">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Hi, I'm a fullstack developer specializing in Java and Angular. I enjoy building applications that solve real-world problems and improve user experience.</p>
-        </section>
+            <p>I'm a fullstack developer specializing in Java and Angular, passionate about building exceptional digital experiences.</p>
+        </div>
+    </section>
 
-        <section id="skills" class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Java</li>
-                <li>Angular</li>
-                <li>JavaScript</li>
-                <li>HTML & CSS</li>
-                <li>Spring Boot</li>
-                <li>RESTful APIs</li>
-            </ul>
-        </section>
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="tabs">
+                <button class="tab-link active" data-target="tab1">Company 1</button>
+                <button class="tab-link" data-target="tab2">Company 2</button>
+                <button class="tab-link" data-target="tab3">Company 3</button>
+            </div>
+            <div class="tab-content" id="tab1">
+                <h3>Fullstack Developer <span>@ Company 1</span></h3>
+                <p>Jan 2021 - Present</p>
+                <ul>
+                    <li>Developed and maintained web applications using Angular and Spring Boot.</li>
+                    <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
+                </ul>
+            </div>
+            <div class="tab-content hidden" id="tab2">
+                <h3>Frontend Developer <span>@ Company 2</span></h3>
+                <p>Jun 2019 - Dec 2020</p>
+                <ul>
+                    <li>Implemented responsive UI components using Angular and CSS.</li>
+                    <li>Optimized application for maximum speed and scalability.</li>
+                </ul>
+            </div>
+            <div class="tab-content hidden" id="tab3">
+                <h3>Intern <span>@ Company 3</span></h3>
+                <p>Jan 2018 - May 2019</p>
+                <ul>
+                    <li>Assisted in the development of front-end features and bug fixes.</li>
+                    <li>Conducted testing and quality assurance tasks.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project 1:</strong> CRM Application for a tax accounting firm - A custom solution to manage client interactions and data efficiently.</li>
-                <li><strong>Project 2:</strong> E-commerce Website - Developed a full-featured e-commerce platform using Angular and Spring Boot.</li>
-                <li><strong>Project 3:</strong> Portfolio Website - Personal portfolio showcasing skills and projects.</li>
-            </ul>
-        </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, please email me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </section>
-    </div>
-</div>
-
-<footer>
-    <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
  </body>
 </html>
