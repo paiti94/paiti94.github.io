@@ -12,7 +12,6 @@
  </head>
  <body>
 <header class="header">
-    <h1>Jinny Kim</h1>
     <p>Senior Data Engineer | Fullstack Developer | Java & Angular Specialist</p>
    
        <!-- <a href="index.html">
@@ -28,69 +27,72 @@
         2
        </a> -->
 
-        <nav class="navbar">
-            <div class="container">
-                <a href="#" class="logo">Your Name</a>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+       <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Jinny Kim</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm Your Name</h1>
+            <p>I'm a fullstack developer specializing in Java and Angular.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
     <section id="about" class="section about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a fullstack developer specializing in Java and Angular, passionate about building exceptional digital experiences.</p>
+            <p>I’m a passionate developer with experience in building web applications using modern technologies like Java, Angular, and more.</p>
         </div>
     </section>
 
-    <section id="experience" class="section experience">
+    <section id="projects" class="section projects">
         <div class="container">
-            <h2>Experience</h2>
-            <div class="tabs">
-                <button class="tab-link active" data-target="tab1">Company 1</button>
-                <button class="tab-link" data-target="tab2">Company 2</button>
-                <button class="tab-link" data-target="tab3">Company 3</button>
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project" data-aos="fade-up">
+                    <h3>Project 1</h3>
+                    <p>Details about your project. Highlight the technology stack, features, and your role.</p>
+                </div>
+                <div class="project" data-aos="fade-up">
+                    <h3>Project 2</h3>
+                    <p>Details about your project. Highlight the technology stack, features, and your role.</p>
+                </div>
+                <div class="project" data-aos="fade-up">
+                    <h3>Project 3</h3>
+                    <p>Details about your project. Highlight the technology stack, features, and your role.</p>
+                </div>
             </div>
-            <div class="tab-content" id="tab1">
-                <h3>Fullstack Developer <span>@ Company 1</span></h3>
-                <p>Jan 2021 - Present</p>
-                <ul>
-                    <li>Developed and maintained web applications using Angular and Spring Boot.</li>
-                    <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
-                </ul>
-            </div>
-            <div class="tab-content hidden" id="tab2">
-                <h3>Frontend Developer <span>@ Company 2</span></h3>
-                <p>Jun 2019 - Dec 2020</p>
-                <ul>
-                    <li>Implemented responsive UI components using Angular and CSS.</li>
-                    <li>Optimized application for maximum speed and scalability.</li>
-                </ul>
-            </div>
-            <div class="tab-content hidden" id="tab3">
-                <h3>Intern <span>@ Company 3</span></h3>
-                <p>Jan 2018 - May 2019</p>
-                <ul>
-                    <li>Assisted in the development of front-end features and bug fixes.</li>
-                    <li>Conducted testing and quality assurance tasks.</li>
-                </ul>
-            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please email me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
     <script>
         AOS.init();
     </script>
