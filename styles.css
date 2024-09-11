@@ -111,11 +111,14 @@ a {
     transition: transform 0.3s;
     p{
         font-size: small;
+        padding-top: 10px;
     }
 }
 
 .project:hover {
     transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding:10px;
 }
 
 footer {
