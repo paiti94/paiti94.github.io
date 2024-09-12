@@ -109,9 +109,15 @@ a {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s;
+    h3{
+        padding-bottom:20px;
+    }
     p{
         font-size: small;
         padding-top: 10px;
+    }
+    img{
+        width:360px;
     }
 }
 
