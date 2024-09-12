@@ -98,8 +98,13 @@ a {
 }
 
 .section {
-    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
+    background: #0a192f;
+    padding: 0 20px;
 }
 
 .projects .project-list {
@@ -121,9 +126,7 @@ a {
         font-size: small;
         padding-top: 10px;
     }
-    img{
-        width:38vw;
-    }
+
     ::ng-deep ul{
         padding-left:2vw !important;
     }
