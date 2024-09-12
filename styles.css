@@ -153,3 +153,8 @@ footer {
 #typed-output {
     color: orange;
 }
+
+.text-teal-300 {
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212 / var(--tw-text-opacity));
+}
