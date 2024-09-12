@@ -124,8 +124,8 @@ a {
     img{
         width:38vw;
     }
-    ul{
-        padding-left:2vw;
+    ::ng-deep ul{
+        padding-left:2vw !important;
     }
 }
 
@@ -162,8 +162,12 @@ footer {
     color: rgb(94 234 212 / var(--tw-text-opacity));
 }
 
+.bg-teal-400{
+    background-color: rgba(204, 245, 240, 0.5); ;
+}
+
 @media (min-width: 1536px) {
-    .container {
-        max-width: 400vw;
+    ::ng-deep .container {
+        max-width: 400vw !important;
     }
 }
