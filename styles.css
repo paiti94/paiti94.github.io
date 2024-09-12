@@ -122,7 +122,10 @@ a {
         padding-top: 10px;
     }
     img{
-        width:20vw;
+        width:38vw;
+    }
+    ul{
+        padding-left:2vw;
     }
 }
 
@@ -157,4 +160,10 @@ footer {
 .text-teal-300 {
     --tw-text-opacity: 1;
     color: rgb(94 234 212 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 400vw;
+    }
 }
