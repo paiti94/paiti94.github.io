@@ -143,6 +143,9 @@ footer {
     color: #8892b0;
     padding: 20px 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a {
