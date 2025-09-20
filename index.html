@@ -4,8 +4,9 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-   Title
+   Jinny Kim | Software Engineer
   </title>
+  <meta name="description" content="Portfolio of Jinny Kim, a software engineer building resilient full-stack platforms and user-centric web experiences.">
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,118 +14,273 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
  </head>
  <body>
-<header class="header">
-       <!-- <a href="index.html">
-        Home
-       </a>
-       <a href="content/6.html">
-        6
-       </a>
-       <a href="content/7.html">
-        7
-       </a>
-       <a href="content/2.html">
-        2
-       </a> -->
-
-       <nav class="navbar">
-        <div class="container">
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Personal Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a class="logo" href="#home">Jinny Kim</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Hello, It's Jinny</h1>
-            <p class="hero-subtitle">I'm a <span id="typed-output"></span></p>
-            <a href="#projects" class="btn">View My Work <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
-            </svg></a>
-        </div>
-    </section>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I’m a passionate developer with experience in building web applications using modern technologies like Java, Angular, and more.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project" data-aos="fade-up">
-                    <h3>CRM Application</h3>
-                    <a href="https://github.com/paiti94/Nova-CRM-Frontend" target="_blank"><img src="content/crm.png" alt="Project 1"></a>
-                    <p>Designed Full Stack CRM Application for an accounting tax firm to manage their clients and tasks.</p>
-                    <ul class="mt-2 flex flex-wrap gap-2">
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Typescript</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Node</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MongoDB</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">OAuth</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Microsoft Outlook Intgeration</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AWS</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AI Integration</div></li>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-copy" data-aos="fade-up">
+                    <span class="eyebrow">Software Engineer &amp; Product Builder</span>
+                    <h1>Hi, I'm Jinny Kim.</h1>
+                    <p class="hero-lead">Full-stack developer who treats latency as a bug report and polish as a requirement. I ship scalable web apps, tidy APIs, and cloud stacks that stay calm in production, with AI only where it earns its keep.</p>
+                    <p class="hero-subtitle">I'm a <span id="typed-output"></span></p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Recent Work</a>
+                        <a href="mailto:paiti94@gmail.com" class="btn btn-secondary">Let's Collaborate</a>
+                    </div>
+                    <ul class="hero-tags">
+                        <li>Full-stack Systems</li>
+                        <li>Cloud Architecture</li>
+                        <li>Automation &amp; AI</li>
                     </ul>
                 </div>
-                <div class="project" data-aos="fade-up">
-                    <h3>Soccer Related Database App</h3>
-                    <a href="https://github.com/paiti94/UserSoccerGUI" target="_blank"><img src="content/soccer.png" alt="Project 2"></a>
-                    <p>Quick and easy accessible to Soccer related news and statistics with a simple user interface. It offers a simple playful game that can be played with friends.</p>
-                    <ul class="mt-2 flex flex-wrap gap-2">
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Java</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Spring Boot</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Angular</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Express.js</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MySQL</div></li>
+                <aside class="hero-card" data-aos="fade-left">
+                    <h2>When the day job wraps, I'm still:</h2>
+                    <ul>
+                        <li>Architecting an AI-powered CRM for accountants that understands tax-season panic.</li>
+                        <li>Threading AI into daily ops so teams get hours back instead of another dashboard.</li>
+                        <li>Prototyping a Calendly-style scheduler wired into Outlook, Teams, and Stripe.</li>
+                        <li>Building and supporting small-business sites that feel as friendly as the owners.</li>
                     </ul>
-                </div>
-                <div class="project" data-aos="fade-up">
-                    <h3>Accounting firm Website</h3>
-                    <a href="https://www.novatax.ca/" target="_blank"><img src="content/nova.png" alt="Project 3"></a>
-                    <p>Designed React-based Website for an accounting tax firm for their user to navigate their information</p>
-                    <ul class="mt-2 flex flex-wrap gap-2">
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">SMTP2GO</div></li>
-                    </ul>
-                </div>
-                <div class="project" data-aos="fade-up">
-                    <h3>Handyman Single Page Application</h3>
-                    <a href="https://handyman-spa.vercel.app/" target="_blank"><img src="content/spa.png" alt="Project 4"></a>
-                    <p>Designed React-based Website for an accounting tax firm to manage their clients and tasks.</p>
-                    <ul class="mt-2 flex flex-wrap gap-2">
-                        <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                    </ul>
-                </div>
-                <!-- <div class="project" data-aos="fade-up">
-                    <h3>Ecommerce Application</h3>
-                    <p>TBD</p>
-                </div> -->
+                </aside>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, please email me at: <a href="mailto:paiti94@gmail.com">paiti94@gmail.com</a></p>
-        </div>
-    </section>
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="eyebrow">Get to know me</span>
+                    <h2>Product-minded software engineer</h2>
+                    <p class="lead">I move ideas from sketch to ship, picking the right stack to make the numbers and the users happy.</p>
+                </div>
+                <div class="about-grid">
+                    <article class="about-bio" data-aos="fade-right">
+                        <p>I work where user empathy meets resilient engineering. Lately that means bespoke CRMs, immersive web features, and AI copilots that help people decide faster.</p>
+                        <p>Give me a cross-functional crew and a whiteboard and I'll translate fuzzy requirements into reliable, extensible systems, then automate the boring parts so we can iterate quicker.</p>
+                    </article>
+                    <aside class="about-highlights" data-aos="fade-left">
+                        <h3>Highlights</h3>
+                        <ul>
+                            <li>Ship production-ready experiences from pixel to pipeline.</li>
+                            <li>Wire up auth, third-party APIs, and data plumbing without leaks.</li>
+                            <li>Champion accessibility, performance budgets, and automated tests so quality keeps pace with features.</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="eyebrow">Toolbox</span>
+                    <h2>Technical toolkit</h2>
+                    <p class="lead">A curated mix of languages, frameworks, and practices that help me deliver dependable solutions.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skills-card" data-aos="fade-up">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>TypeScript</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                        </ul>
+                    </article>
+                    <article class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>Node.js &amp; Express</li>
+                        </ul>
+                    </article>
+                    <article class="skills-card" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Platforms &amp; Tools</h3>
+                        <ul>
+                            <li>AWS</li>
+                            <li>MongoDB &amp; MySQL</li>
+                            <li>OAuth &amp; SSO</li>
+                            <li>CI/CD &amp; Testing Automation</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="eyebrow">Impact</span>
+                    <h2>Recent engineering stories</h2>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-item" data-aos="fade-up">
+                        <header>
+                            <h3>Nova CRM Platform</h3>
+                            <span class="timeline-time">2025 - Present</span>
+                        </header>
+                        <p>Architected a bespoke CRM that keeps a tax advisory team sane during peak season.</p>
+                        <ul>
+                            <li>Orchestrated a TypeScript/React frontend backed by Node.js services and MongoDB.</li>
+                            <li>Baked in secure OAuth flows plus Microsoft Outlook integrations for truly hands-off scheduling.</li>
+                            <li>Stood up AWS infrastructure with monitoring and automated deployments so the ops team sleeps.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item" data-aos="fade-up">
+                        <header>
+                            <h3>Nova Booking Scheduler</h3>
+                            <span class="timeline-time">2025 - Present</span>
+                        </header>
+                        <p>Built a Calendly-style scheduling platform with seamless payments and calendar automation.</p>
+                        <ul>
+                            <li>Designed a polished Next.js frontend that mirrors Calendly’s booking flow and keeps clients on track.</li>
+                            <li>Integrated Stripe Checkout with provincial GST/HST rules so every consultation charges the right tax.</li>
+                            <li>Synced confirmed slots to Microsoft Outlook and auto-generated Teams links, turning bookings into instant meetings.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <header>
+                            <h3>Soccer Analytics Experience</h3>
+                            <span class="timeline-time">2024</span>
+                        </header>
+                        <p>Built an interactive desktop and web experience that mixes real-time soccer insight with a splash of play.</p>
+                        <ul>
+                            <li>Designed RESTful services with Spring Boot and Express to wrangle live stats.</li>
+                            <li>Crafted Angular interfaces packed with approachable data visualizations.</li>
+                            <li>Dropped in mini-games that keep fans returning between matches.</li>
+                        </ul>
+                    </article>
+                    <article class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <header>
+                            <h3>Human-centered Web Builds</h3>
+                            <span class="timeline-time">Ongoing</span>
+                        </header>
+                        <p>Team up with service-driven businesses to launch fast, on-brand microsites and SPAs that feel personal.</p>
+                        <ul>
+                            <li>Led React builds for Nova Tax and Handyman SPA with a bias toward clarity and conversion.</li>
+                            <li>Hooked in transactional email via SMTP2GO so leads never fall through the cracks.</li>
+                            <li>Delivered accessibility tooling and analytics dashboards to guide the next iteration.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="eyebrow">Selected Work</span>
+                    <h2>Projects</h2>
+                    <p class="lead">A snapshot of the platforms and experiences I've shipped recently.</p>
+                </div>
+                <div class="project-list">
+                    <div class="project" data-aos="fade-up">
+                        <h3>CRM Application</h3>
+                        <a href="https://github.com/paiti94/Nova-CRM-Frontend" target="_blank" rel="noopener">
+                            <img src="content/NovaTaxCRM.gif" alt="Screenshot of the CRM application">
+                        </a>
+                        <p>Full-stack CRM tailored for accountants, connecting task workflows, client data, and intelligent insights.</p>
+                        <ul class="mt-2 flex flex-wrap gap-2">
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">TypeScript</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Node</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MongoDB</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">OAuth</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Microsoft Outlook Integration</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AWS</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AI Integration</div></li>
+                        </ul>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <h3>Scheduler Studio</h3>
+                        <a href="https://github.com/paiti94/scheduler-studio" target="_blank" rel="noopener">
+                            <img src="content/NovaBooking.gif" alt="Screenshot of the Scheduler Studio booking flow">
+                        </a>
+                        <p>Calendly-style scheduling app that syncs Outlook and Teams, takes payments with Stripe, and keeps booking logic human-friendly.</p>
+                        <ul class="mt-2 flex flex-wrap gap-2">
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">TypeScript</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Microsoft Graph</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Stripe</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">PostgreSQL</div></li>
+                        </ul>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <h3>Soccer Related Database App</h3>
+                        <a href="https://github.com/paiti94/UserSoccerGUI" target="_blank" rel="noopener">
+                            <img src="content/soccer.gif" alt="Screenshot of the soccer analytics app">
+                        </a>
+                        <p>Cross-platform experience combining live soccer analytics with playful user engagement.</p>
+                        <ul class="mt-2 flex flex-wrap gap-2">
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Java</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Spring Boot</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Angular</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Express.js</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">MySQL</div></li>
+                        </ul>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <h3>Accounting Firm Website</h3>
+                        <a href="https://www.novatax.ca/" target="_blank" rel="noopener">
+                            <img src="content/NovaTax.gif" alt="Screenshot of the Nova Tax website">
+                        </a>
+                        <p>High-trust marketing site emphasizing services, credibility, and straightforward lead capture.</p>
+                        <ul class="mt-2 flex flex-wrap gap-2">
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">SMTP2GO</div></li>
+                        </ul>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <h3>Handyman Single Page Application</h3>
+                        <a href="https://handyman-spa.vercel.app/" target="_blank" rel="noopener">
+                            <img src="content/spa.gif" alt="Screenshot of the handyman SPA">
+                        </a>
+                        <p>Single-page marketing site optimized for mobile discovery and appointment bookings.</p>
+                        <ul class="mt-2 flex flex-wrap gap-2">
+                            <li class="mr-1.5 mt-2"><div class="flex items-center rounded-full bg-teal-400 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="eyebrow">Let's connect</span>
+                    <h2>Ready to build together?</h2>
+                    <p class="lead">I got my matcha latte ready. Let's chat and make something great together.</p>
+                </div>
+                <div class="contact-actions" data-aos="fade-up">
+                    <a href="mailto:paiti94@gmail.com" class="btn btn-primary">Email paiti94@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/jinny-k/" target="_blank" rel="noopener" class="btn btn-secondary">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Jinny Kim. All Rights Reserved.</p>
+            <p>&copy; 2025 Jinny Kim. All Rights Reserved.</p>
             <div class="social-links">
-                <a href="https://github.com/paiti94" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/jeeeunjinnykim" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/paiti94" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a>
+                <a href="https://www.linkedin.com/in/jinny-k/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
             </div>
         </div>
     </footer>
@@ -133,6 +289,6 @@
     <script>
         AOS.init();
     </script>
-       <script src="script.js"></script>
+    <script src="script.js"></script>
  </body>
 </html>
